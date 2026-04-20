@@ -1,0 +1,23 @@
+[
+  {
+    "action": "read",
+    "resource": "document",
+    "condition": {
+      "user.department": "finance"
+    }
+  },
+  {
+    "action": "write",
+    "resource": "document",
+    "condition": {
+      "user.role": "admin"
+    }
+  },
+  {
+    "action": "read",
+    "resource": "document",
+    "condition": {
+      "resource.sensitivity": "low"
+    }
+  }
+]
